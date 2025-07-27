@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatingWorkflowWithGitHooks", "AutomatingWorkflowWithGitHooks.csproj", "{BC363462-F472-4D27-AD95-1129A1DBA285}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC363462-F472-4D27-AD95-1129A1DBA285}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC363462-F472-4D27-AD95-1129A1DBA285}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC363462-F472-4D27-AD95-1129A1DBA285}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC363462-F472-4D27-AD95-1129A1DBA285}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {26E9733E-21DF-4867-8407-7A42DF5F9228}
+	EndGlobalSection
+EndGlobal
