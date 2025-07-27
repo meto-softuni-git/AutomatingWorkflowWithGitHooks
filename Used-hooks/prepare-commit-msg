@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# Read the commit message from the file
+commit_msg=$(cat "$1")
+
+# Define the regex pattern: TASK-123: Some message
+pattern="^TASK-[0-9]+: .+"
+
+# Validate the commit message
+if [[ ! "$commit_msg" =~ $pattern ]]; then
+  echo "❌ Commit message format invalid!"
+  echo "Expected format: TASK-123: Description"
+  exit 1
+fi
+
+# All good
+exit 0
